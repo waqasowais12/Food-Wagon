@@ -1,0 +1,1063 @@
+.main{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+.box{
+   width: 100%;
+    height: 50px;
+}
+.ul .li{
+    display: inline-block;
+}
+.btn {
+    background-color: light-green;
+    padding: 0px 23px;
+    font-size: 16px;
+    box-shadow: 10px;
+    color: #FFB800;
+    box-shadow: 1px 1px 1px 1px lightgoldenrodyellow;
+}
+.sec-sec{
+    display: flex;
+    background-color: #FFB800;
+    justify-content: space-around;
+}
+.sec-sec .wh-box{
+    width: 40%;
+    /* background-color: antiquewhite; */
+}
+.sec-sec .pic{
+    width: 40%;
+    /* background-color: antiquewhite; */
+}
+.wh-box h1{
+    color: white;
+    width: 100%;
+}
+.wh-box p{
+    font-size: 10px;
+    width: 100%;
+}
+.wh-box .box{
+    background-color: white;
+    height: 110px;
+    position: relative;
+    border-radius: 8px;
+    width: 100%;
+}
+.box .bt{
+    background-color: rgba(241, 114, 40, 0.1);
+    position: relative;
+    color:#F17228;
+    font-weight: bold;
+    font-size: 11px;
+    width: 70px;
+    padding-left:20px;
+    height: 20px;
+}
+.bt .mt{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.box .bt1{
+    position: relative;
+    color:#757575;
+    font-weight: bold;
+    font-size: 11px;
+    width: 70px;
+    padding-left:20px;
+    height: 20px;
+}
+.bt1 .mt{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.box .inp{
+    padding-left: 25px;
+    background-color: #F5F5F5;
+    border: none;
+    font-size: small;
+}
+.box .ic{
+    position: absolute;
+    bottom: 25px;
+    left: 45px;
+    color: #FF7474;
+}
+.box .food{
+    background-color: rgba(255, 122, 122, 1);
+    color: white;
+    text-align: center;
+    width: 100px;
+    font-size: 15px;
+    position: relative;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.food .sr{
+    position: absolute;
+    left: 4px;
+    top: 3px;
+}
+
+
+.food-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-area .im{
+    width: 23%;
+}
+.im img{
+    width: 100%;
+}
+.im p{
+    font-weight: bold;
+}
+.food-area .rm{
+    background-color: rgba(241, 114, 40, 0.2);
+    border-radius: 6px;
+    width: 120px;
+    justify-content: space-between;
+}
+.rm p{
+    font-weight: bold;
+    font-size: 12px;
+    color: #F17228;
+    text-align: center;
+}
+.color{
+    background-color: #FFF9EE;
+}
+.how-diw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.how-diw .heading{
+    color: rgba(241, 114, 40, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 32%;
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icon .ic1{
+    width: 20%;
+}
+.ic1 img{
+    width: 50%;
+}
+.ic1 .img3{
+    width: 46%;
+}
+.ic1 .img4{
+    width: 58%;
+}
+.ic1 p{
+    font-weight: bold;
+    font-size: large;
+}
+.ic1 .par{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.pop-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pop-item .pop1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 32%;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list .l1{
+    width: 13%;
+}
+.l1 img{
+    width: 100%;
+}
+.l1{
+    position: relative;
+}
+.l1 i{
+    position: absolute;
+    background-color: #FFB800;
+    border-radius: 60px;
+    color: white;
+    top: 100px;
+    font-size: xx-large;
+    width: 40px;
+    text-align: center;
+}
+.l1 .lef{
+    left: 100px;
+}
+.l1 .rig{
+    left: 30px;
+}
+.l1 .p1{
+    font-weight: bold;
+}
+.l1 .img{
+    width: 15%;
+}
+.l1 .p2{
+    color: #FFB800;
+}
+.l1 .btt{
+    background-color: #F17228;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    border:none;
+    width: 100%;
+    text-shadow: #FFB800;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px #F17228;
+    font-size: 13px;
+}
+
+.fr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fr .fr1{
+    width: 21%;
+    position: relative;
+}
+.fr1 img{
+    width: 100%;
+}
+
+.fr1 .img1{
+    width: 50px;
+    height: 50px;
+}
+.fr1 .tx{
+    font-weight: bold;
+    font-size: small;
+    padding-left: 12px;
+}
+.fr1 .icon1{
+    position: absolute;
+    color: #FFB800;
+    right: 65%;
+    bottom: 18.5%;   
+}
+.fr1 .btn{
+    text-align: center;
+    color: #F17228;
+    background-color:rgba(241, 114, 40, 0.2);
+    border: none;
+    font-weight: bold;
+    font-size: small;
+}
+.fr1 .btn1{
+    text-align: center;
+    color: rgba(121, 185, 60, 1);
+    background-color:rgba(121, 185, 60, 0.2);
+    border: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+.btn2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btn2 .btn{
+    width: 30%;
+}
+.btn2 .button{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #FFB800;
+    border: none;
+    font-size: 15px;
+    width: 120px;
+    border-radius: 7px;
+    height: 35px;
+    padding-bottom: 0px;
+    box-shadow: 4px 4px 4px 4px #FFB800;
+}
+
+.cir-food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cir-food .food{
+    width: 13%;
+}
+.food img{
+    width: 100%;
+    border-radius: 80px;
+}
+
+.food p{
+    font-weight: bold;
+    text-align: center;
+}
+.mn{
+    background-color: rgba(254, 250, 241, 1);
+}
+
+.sear-by-food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sear-by-food .sbf{
+    width: 30%;
+}
+.sbf h3{
+    font-weight: bold;
+}
+.ul .tx{
+    font-weight: bold;
+    color: #FFB800;
+    font-size: small;
+}
+.ul .lef{
+    background-color: #FFB800;
+    color: white;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.ul .rig{
+    background-color: #FFB800;
+    color: white;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-left:0px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.sbf1{
+    text-align: end;
+}
+
+.dlq{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mn1{
+    background-color: rgba(254, 239, 208, 1);
+    position: relative;
+}
+.dlq .dlq1{
+    width: 10%;
+}
+.dlq .dlq3{
+    width: 10%;
+}
+.dlq .dlq2{
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    border-radius: 25px;
+    height: 90px;
+}
+
+.dlq2 .col{
+    color: #F17228;
+    font-weight: 800;
+}
+.dlq2 img{
+    width: 60%;
+} 
+
+.dl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dl .dl1{
+    width: 10%;
+}
+.dl1 .hr{
+    padding-top: 20px;
+    width: 2px;
+    height: 60px;
+}
+.dl1 .col{
+    padding-top: 20px;
+}
+.dl1 .img{
+    padding-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row .row1{
+    width: 40%;
+}
+.row1 img{
+    width: 100%;
+}
+.row .rw{
+    padding-top: 50px;
+}
+.row1 h1{
+    color: #FFB800;
+}
+.row1 p{
+    font-size: 13px;
+}
+.rw img{
+    width: 200px;
+}
+/* .mn1 .ig{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+} */
+/* .bg{
+    background-image: linear-gradient(to right, #FFAE00, #FF8A00);
+} */
+@media only screen and (max-width:1300px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 60%;
+        bottom: 20%;   
+    }
+}
+@media only screen and (max-width:1150px){
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .list .l1{
+       width:28%;
+    }
+
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 58%;
+        bottom: 21%;   
+    }
+
+}
+
+@media only screen and (max-width:1080px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 54%;
+        bottom: 23%;   
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .sec-sec{
+        display: flex;
+        background-color: #FFB800;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .sec-sec .wh-box{
+        width: 80%;
+    /* background-color: antiquewhite; */
+        
+    }
+    .sec-sec .pic{
+        width: 80%;
+    /* background-color: antiquewhite; */
+
+         }
+    .pic img{
+        width: 70%;
+    }
+    .wh-box .box{
+        width: 100%;
+    }
+    .food-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .food-area .im{
+        width: 46%;
+    }
+    .im img{
+        width: 100%;
+    }
+
+
+    .how-diw{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .how-diw .heading{
+        color: rgba(241, 114, 40, 1);
+        font-weight: bold;
+        font-size: 20px;
+        width: 80%;
+    }
+
+
+    .icon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .icon .ic1{
+        width: 40%;
+    }
+
+    .pop-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pop-item .pop1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .fr{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .fr .fr1{
+        width: 32%;
+        position: relative;
+    }
+
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 68%;
+        bottom: 17%;   
+    }
+
+    .list .rig{
+        display: none;
+    }
+    .list .lef{
+        display: none;
+    }
+
+    .btn2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .btn2 .btn{
+        width: 80%;
+    }
+
+    .sear-by-food{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sear-by-food .sbf{
+        width: 40%;
+    }
+    .sear-by-food .s1{
+        display: none;
+    }
+
+    .cir-food{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .cir-food .food{
+        width: 30%;
+    }
+    .food img{
+        width: 100%;
+        border-radius: 140px;
+    }
+
+    .dlq{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .mn1{
+        background-color: rgba(254, 239, 208, 1);
+    }
+    /* .dlq .dlq1{
+        width: 10%;
+    }
+    .dlq .dlq3{
+        width: 10%;
+    } */
+    .dlq .dlq2{
+        text-align: center;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        height: 800px;
+    }
+    .dl{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .dl .dl1{
+        width: 80%;
+    }
+    .dl1 .hr{
+        display: none;
+    }
+    .dl1 .img{
+        width: 30%;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    .row .row1{
+        width: 80%;
+    }
+    .row1 img{
+        width: 100%;
+    }
+    .rw p{
+        margin-left: 20px;
+    }
+    .rw h1{
+        margin-left: 20px;
+    }
+    .rw img{
+        width:40%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .dlq .dlq2{
+        text-align: center;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        height: 600px;
+    }
+    .dl{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .dl .dl1{
+        width: 80%;
+    }
+    .dl1 .hr{
+        display: none;
+    }
+    .dl1 .img{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 64%;
+        bottom: 19%;   
+    }
+}
+@media only screen and (max-width:800px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 60%;
+        bottom: 21%;   
+    }
+}
+
+
+@media only screen and (max-width:750px){
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .list .l1{
+       width:40%;
+    }
+
+    .fr{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .fr .fr1{
+        width: 40%;
+        position: relative;
+    }
+
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 64%;
+        bottom: 18.5%;   
+    }
+}
+
+@media only screen and (max-width:645px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 59%;
+        bottom:21%;   
+    }
+}
+@media only screen and (max-width:550px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 52%;
+        bottom:23%;   
+    }
+    .sbf h3{
+        font-size: 20px;
+    }
+    .ul .lef{
+        background-color: #FFB800;
+        color: white;
+        border-radius: 30px;
+        width: 20px;
+        height: 30px;
+        padding-left: 0px;
+        padding-top: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .ul .rig{
+        background-color: #FFB800;
+        color: white;
+        border-radius: 30px;
+        width: 20px;
+        height: 30px;
+        text-align: center;
+        padding-left:0px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width:414px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 35%;
+        bottom:26%;   
+    }
+}
+@media only screen and (max-width:393px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 33%;
+        bottom:32%;   
+    }
+}
+@media only screen and (max-width:390px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 33%;
+        bottom:31%;   
+    }
+}
+@media only screen and (max-width:370px){
+    .fr{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .fr .fr1{
+        width: 80%;
+        position: relative;
+    }
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 63%;
+        bottom:20%;   
+    }
+
+    .food-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .food-area .im{
+        width: 80%;
+    }
+
+    .icon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .icon .ic1{
+        width: 80%;
+    }
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .list .l1{
+        width: 80%;
+    }
+    .list .rig{
+        display: none;
+    }
+
+    .sear-by-food{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sear-by-food .sbf{
+        width: 80%;
+    }
+    .sear-by-food .s1{
+        display: none;
+    }
+    .sbf h3{
+        font-weight: bold;
+        font-size: large;
+        text-align: center;
+    }
+    .sbf1{
+        text-align: center;
+        margin-right:18%;
+    }
+
+    .cir-food{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .cir-food .food{
+        width: 40%;
+    }
+    .food img{
+        width: 100%;
+        border-radius: 80px;
+    }
+
+    .dlq .dlq2{
+        text-align: center;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        height: 400px;
+    }
+    .dl{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .dl .dl1{
+        width: 80%;
+    }
+    .dl1 .hr{
+        display: none;
+    }
+    .dl1 .img{
+        width: 30%;
+    }
+    .ul .lef{
+        background-color: #FFB800;
+        color: white;
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        padding-left: 0px;
+        padding-top: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .ul .rig{
+        background-color: #FFB800;
+        color: white;
+        border-radius: 30px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding-left:0px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width:280px){
+    .fr1 .icon1{
+        position: absolute;
+        color: #FFB800;
+        right: 50%;
+        bottom:23%;   
+    }
+}
+@media only screen and (min-width:1600px){
+    .how-diw .heading{
+        color: rgba(241, 114, 40, 1);
+        font-weight: bold;
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .ic1 p{
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .ic1 .par{
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .pop-item .pop1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width:2400px){
+    .how-diw .heading{
+        color: rgba(241, 114, 40, 1);
+        font-weight: bold;
+        font-size: 60px;
+        width: 80%;
+    }
+
+    .ic1 p{
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .ic1 .par{
+        font-weight: normal;
+        font-size: 24px;
+    }
+
+    .pop-item .pop1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 60px;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width:4000px){
+    .how-diw .heading{
+        color: rgba(241, 114, 40, 1);
+        font-weight: bold;
+        font-size: 70px;
+        width: 80%;
+    }
+
+    .ic1 p{
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .ic1 .par{
+        font-weight: normal;
+        font-size: 34px;
+    }
+
+    .pop-item .pop1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 70px;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:5000px){
+    .how-diw .heading{
+        color: rgba(241, 114, 40, 1);
+        font-weight: bold;
+        font-size: 100px;
+        width: 80%;
+    }
+
+    .ic1 p{
+        font-weight: bold;
+        font-size: 58px;
+    }
+    .ic1 .par{
+        font-weight: normal;
+        font-size: 48px;
+    }
+
+    .pop-item .pop1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 100px;
+        width: 80%;
+    }
+}
+
+
+
+@media only screen and (max-width:470px){
+    .wh-box h1{
+        font-size: 30px;
+    }
+    .wh-box p{
+        font-size: 8px;
+    }
+    .box .inp{
+        width: 80%;
+        font-size: 10px;
+    }
+    .box .food{
+        width: 70px;
+        font-size: 10px;
+    }
+}
